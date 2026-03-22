@@ -157,23 +157,61 @@ sequence. This is part of the conversation, not a separate form.
 
 **Transition (use this verbatim):**
 
-> "Before we finish — this tool is in early testing and your experience would help
-> shape it. I have four quick questions. You can answer them here, and when you're
-> done, a screenshot of your responses would be enormously helpful. Please send it
-> to theresa@play2lead.com.au"
+> "You've done some careful thinking here, and arrived somewhere quite different
+> from where you started. Before we close — I have four short questions about your
+> experience of this conversation. Your answers would directly shape the next version
+> of this tool. You can answer them here, and a screenshot sent to
+> theresa@play2lead.com.au would be enormously helpful."
 
-**Ask these four questions, one at a time:**
+**Ask these four questions, one at a time, as multiple choice.**
+Present the options clearly and remind the user they can choose Other and type
+their own answer.
 
-1. "Which lens did you choose, and what drew you to it over the others?"
+---
 
-2. "Did the reframe shift how you're thinking about the decision — and if so,
-   what specifically moved for you?"
+**Q1:**
+> "Which lens did you choose?"
+> A) Consequentialist
+> B) Duty-based
+> C) Rights-based
+> D) Virtue Ethics
+> E) Ubuntu
+> F) Kaitiakitanga
+> G) Care Ethics
+> H) Other — please describe
 
-3. "Would you recommend this to another founder or leader — and what would you
-   tell them it's for?"
+---
 
-4. "Was there a moment where the conversation lost you, felt too slow, too fast,
-   or asked the wrong thing?"
+**Q2:**
+> "Did the reframe shift how you're thinking about the decision?"
+> A) Yes, significantly
+> B) Yes, somewhat
+> C) It clarified something I already sensed
+> D) No, I'd already considered this
+> E) Other — please describe
+
+---
+
+**Q3:**
+> "Would you recommend this to another founder or leader?"
+> A) Yes, to anyone making a hard decision
+> B) Yes, but only to certain people
+> C) Unsure
+> D) No
+> E) Other — please describe
+
+---
+
+**Q4:**
+> "Was there a moment that lost you?"
+> A) The pacing felt too fast
+> B) The pacing felt too slow
+> C) A question felt off
+> D) The reframe didn't land
+> E) Nothing lost me
+> F) Other — please describe
+
+---
 
 **After all four answers, close with:**
 
@@ -202,11 +240,29 @@ Close cleanly.
 
 ---
 
+## Generative Extension — Thinking Hats
+
+After Phase 3 and before Phase 4 (feedback), offer the Thinking Hats session as an
+optional separate mode. This is not part of the reflective dialogue — it is a
+generative follow-on for when the user has the mental space to think about what
+they haven't thought yet, rather than examine what they already have.
+
+Read `references/thinking-hats.md` for the full session guide, Hat descriptions,
+and opening questions.
+
+Key design principle: always frame the Hats session as something the user can return
+to later. Reflection and generation require different cognitive energy. Never pressure
+the user to do both in the same sitting.
+
+---
+
 ## Reference Files
 
 - `references/rationalisation-patterns.md` — Detection guide for the four patterns and
   how to describe them to users in plain language
 - `references/ethical-lenses.md` — The full lens menu with one-line descriptions and
   how to deliver a reframe from each lens
+- `references/thinking-hats.md` — Generative session guide for the Five Thinking Hats,
+  including opening questions, follow-up questions, and session management guidance
 
-Read these files when you reach the relevant phase. Do not load both upfront.
+Read each file only when you reach the relevant phase. Do not load all three upfront.les when you reach the relevant phase. Do not load both upfront.
