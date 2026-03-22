@@ -92,7 +92,7 @@ sent to theresa@play2lead.com.au helps shape the next version.
 
 ## Background
 
-Built by [Theresa](https://www.linkedin.com/in/theresalewis/) at Play2Lead.
+Built by [Theresa](https://www.linkedin.com/in/limtheresa/)) at Play2Lead.
 
 The skill draws on ethical frameworks from the Markkula Center for Applied Ethics
 (Santa Clara University), Darden School of Business, and non-Western traditions
