@@ -1,113 +1,120 @@
 # Ethical Decision Coach
 
-A Claude skill that helps business leaders think more carefully and completely
-before making high-stakes decisions.
+A Claude skill that guides business leaders through high-stakes decisions by surfacing
+blind spots, rationalisation patterns, and unconsidered perspectives before they commit.
 
-It is not an ethics lecture. It does not tell you what to decide. It asks good
-questions, reflects back what it notices, and — with your permission — offers
-a different point of view through a lens you choose.
+It is not an ethics lecture. It is a structured thinking partner that asks good questions,
+reflects back what it notices, and — with your permission — offers a different point of
+view through a lens you choose.
 
 ---
 
 ## What It Does
 
-The skill guides you through a structured four-phase dialogue:
+The skill runs four phases:
 
-**Phase 1 — Socratic Questioning**
-Eight questions, one at a time, designed to surface how you're thinking about
-the decision without steering you toward any particular answer.
+**Phase 1 — Socratic questioning.** Eight questions, one at a time, designed so your
+answers naturally reveal how you're thinking about the decision. No steering. No right
+answers.
 
-**Phase 2 — Reflective Summary**
-The skill reflects back what it heard across five dimensions and asks if it
-captured things fairly before moving on.
+**Phase 2 — Reflective summary.** Claude reflects back what it heard: the decision,
+your motivation, who you've considered, what assumptions are carrying weight. You
+confirm or correct it.
 
-**Phase 3 — Permissioned Reframe**
-If the skill notices a potential blind spot or rationalisation pattern, it asks
-your permission before offering a different perspective. You choose which lens
-to hear it through.
+**Phase 3 — Permissioned reframe.** If Claude has noticed a blind spot or rationalisation
+pattern, it asks your permission before offering a different perspective. You choose which
+lens to hear it through.
 
-**Phase 4 — Closing Feedback** *(while in testing)*
-Four short questions to help improve the skill. A screenshot of your answers
-sent to theresa@play2lead.com.au is all that's needed.
+Available lenses include Consequentialist, Duty-based, Rights-based, Virtue Ethics,
+Ubuntu, Kaitiakitanga, and Care Ethics.
+
+**Phase 3b — Thinking Hats (optional, generative).** After the reflective dialogue closes,
+Claude offers a separate generative session using De Bono's Five Thinking Hats. This helps
+you think thoughts you haven't thought yet — not examine what you already have. You can do
+it in the same sitting or come back when you have more mental space.
+
+**Phase 4 — Feedback.** Four short multiple choice questions to help shape the next version.
 
 ---
 
-## The Ethical Lenses
+## Who It's For
 
-You can hear a reframe through any of seven lenses:
+Founders, business leaders, senior managers, and product managers working through
+significant decisions — product launches, strategic moves, people decisions, market
+entries, or technology implementations.
 
-| Lens | What it asks |
-|------|--------------|
-| Consequentialist | Who is actually affected, and is the total outcome better or worse for everyone? |
-| Duty-based | Would you be comfortable if every organisation in your position used this same reasoning? |
-| Rights-based | Is anyone's right to make informed choices being affected without their knowledge? |
-| Virtue Ethics | What would a person of genuinely good character do here? |
-| Ubuntu | How does this affect the web of relationships your organisation depends on? |
-| Kaitiakitanga | Are you making this decision as a steward of something larger than your current interests? |
-| Care Ethics | Whose vulnerability is being overlooked in how this decision is being made? |
+It works best with a decision you're genuinely wrestling with, not a hypothetical.
 
 ---
 
 ## Installation
 
-### Requirements
-- A Claude account at [claude.ai](https://claude.ai)
-- [Claude Code](https://claude.ai/code) installed
+You'll need a Claude account. A free account works.
 
-### Install the skill
+### Option 1: ZIP upload via Claude.ai (recommended)
 
-**Option 1: Clone the repo**
+1. Click the green **Code** button on this page, then **Download ZIP**
+2. Do not unzip the file
+3. In Claude, go to **Settings > Capabilities** and make sure **Code execution and file creation** is toggled on
+4. Go to **Customize > Skills** and upload the ZIP file
+5. Toggle the skill on once it appears in your list
+
+### Option 2: Terminal install (Claude Code users)
+
 ```bash
+# Clone this repo
 git clone https://github.com/limty73/ethical-decision-coach.git
+
+# Copy the skill to your Claude skills directory
 cp -r ethical-decision-coach ~/.claude/skills/
 ```
 
-**Option 2: Download and copy manually**
+On Windows: copy the folder to `%USERPROFILE%\.claude\skills\`
 
-Download this repo as a ZIP, unzip it, and copy the `ethical-decision-coach`
-folder into your `~/.claude/skills/` directory.
+The folder structure should look like this:
 
-### Use the skill
-
-Open Claude Code and start a conversation. Describe a decision you're working
-through — the skill will trigger automatically when it detects decision-making
-language.
-
-Works best with something you're genuinely wrestling with.
-
----
-
-## Rationalisation Patterns the Skill Detects
-
-The skill listens for four patterns that commonly appear in business
-decision-making:
-
-- **Circular reasoning** — justifying a decision by restating the decision
-- **Scope narrowing** — only considering immediate, visible stakeholders
-- **Certainty inflation** — treating assumptions as established facts
-- **Outcome anchoring** — working backwards from a conclusion already reached
-
-It does not name these patterns during the conversation. It uses them to decide
-whether a reframe is warranted, and asks your permission before offering one.
+```
+~/.claude/skills/
+└── ethical-decision-coach/
+    ├── SKILL.md
+    └── references/
+        ├── ethical-lenses.md
+        ├── rationalisation-patterns.md
+        └── thinking-hats.md
+```
 
 ---
 
-## Status
+## Using the Skill
 
-This skill is currently in early testing. Feedback from testers is being used
-to shape the next version. If you use it, please send a screenshot of your
-closing feedback responses to theresa@play2lead.com.au.
-
----
-
-## Built By
-
-[Theresa](https://github.com/limty73) — founder, executive coach, and product
-leader based in Sydney. Built on the [Claude Agent Skills](https://anthropic.com)
-platform.
+Once installed, start a conversation in Claude and describe a decision you're working
+through. You don't need to name the skill or ask for it specifically — it will trigger
+automatically when it detects decision-making language.
 
 ---
 
-## Licence
+## Feedback
 
-MIT — free to use, fork, and adapt with attribution.
+This skill is in active testing. At the end of the conversation Claude will ask you four
+short multiple choice questions. A screenshot of your answers sent to
+theresa@play2lead.com.au helps shape the next version directly.
+
+After this testing phase, the skill will be shared with product manager communities
+globally and via LinkedIn. Your feedback at this stage carries real weight.
+
+---
+
+## Background
+
+Built by [Theresa Lim](https://www.linkedin.com/in/theresalewis/) at Play2Lead.
+
+The skill draws on ethical frameworks from the Markkula Center for Applied Ethics
+(Santa Clara University), Darden School of Business, and non-Western traditions
+including Ubuntu philosophy and Māori concepts of kaitiakitanga. The generative
+session draws on Edward de Bono's Six Thinking Hats framework.
+
+---
+
+## License
+
+MIT — free to use, share, and adapt with attribution.
