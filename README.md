@@ -48,7 +48,7 @@ You'll need a Claude account and Claude Code installed.
 
 ```bash
 # Clone this repo
-git clone https://github.com/[your-username]/ethical-decision-coach.git
+git clone https://github.com/limty73/ethical-decision-coach.git
 
 # Copy the skill to your Claude skills directory
 cp -r ethical-decision-coach ~/.claude/skills/
